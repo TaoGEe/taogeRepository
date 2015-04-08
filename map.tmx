@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <tileoffset x="1" y="1"/>
+  <image source="第十章瓦片地图/TiledMap/Classes/source/tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="49" name="water" tilewidth="32" tileheight="32">
+  <image source="第十章瓦片地图/TiledMap/Classes/source/water.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="50" name="meta_tiles" tilewidth="32" tileheight="32">
+  <image source="第十章瓦片地图/TiledMap/Classes/source/meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="colitabel" value=""/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collection" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="floor" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJydkksLAjEMhKOCT/AJ6qlb9rDuSfz/v85ZSNkhNG318MGkKZmkTRCRAD7KEqxUr8EGbCnPcVAi6VZ6ZdI7sAcHjY/gBM5O3DvUPN9KunsBV3DT+A4e4KnzcRwcD6+XXG9ej7V5WmbLMTr1S3XT2aC6U/jOqwD72rqR9ELmXbO9WN9R5v1rmbeT/IyTtrtWeg/2zc1kfdnb1rW7VvNlfvW1f91V8v/u1UB/yjoUzhJR81bXfL/lOyO8
+  </data>
+ </layer>
+ <layer name="fruit" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh6wJBIsaEMaOEfdDPpGWbDLX6GKhjq8QAAv5kBWA==
+  </data>
+ </layer>
+ <objectgroup name="hero" width="30" height="10">
+  <object name="hero" x="0" y="32" width="23" height="22"/>
+  <object x="193" y="382"/>
+  <object name="enemy" x="928" y="64" width="26" height="25"/>
+  <object name="enemy" x="928" y="64" width="26" height="25"/>
+  <object x="892" y="82" width="1"/>
+ </objectgroup>
+ <layer name="meta" width="30" height="10" opacity="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYIAAIywYGaCL4WKTA3DZiQsYEylGib2U+olSQI5/0AG6H9DNJMYOfGkBV5rBFnbGDJhpBl+co5tHTPrAZz+x9uJSS8hMbOzBYC+yeSBAzXSFLY5w2YvLTaSGCwDQRA9E
+  </data>
+ </layer>
+</map>
